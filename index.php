@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="giphy.gif" type="image/gif" sizes="16x16">
+    <title>Behna</title>
     <link href="./behna.css" rel="stylesheet" type="text/css">
     <style>
         body {
