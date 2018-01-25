@@ -2,7 +2,7 @@
 <html>
 <head>
 
-    <link href="http://html.s93.upress.link/mehalev/styles.css" rel="stylesheet" type="text/css">
+    <link href="./behna.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
