@@ -14,10 +14,12 @@
             text-align: center;
             overflow: hidden;
         }
+        html {
+            cursor: wait;
+        }
 
         h1 {
             margin-top: 40vh;
-            cursor: wait;
         }
         h5 {
             cursor: none;
@@ -26,30 +28,6 @@
     <script>
         // Keys Disable for inspect
         $(document).keydown(function (event) {
-            // if (event.keyCode === 123) {
-            //     return false;
-            // }
-            // else if (event.keyCode === 116) {
-            //     return false;
-            // }
-            // else if (event.ctrlKey && event.shiftKey && event.keyCode === 73) {
-            //     return false;
-            // }
-            // else if (event.ctrlKey && event.shiftKey && event.keyCode === 105) {
-            //     return false;
-            // }
-            // else if (event.ctrlKey && event.keyCode === 85) {
-            //     return false;
-            // }
-            // else if (event.ctrlKey && event.keyCode === 117) {
-            //     return false;
-            // }
-            // else if (event.ctrlKey && event.keyCode === 82) {
-            //     return false;
-            // }
-            // else if (event.ctrlKey && event.keyCode === 114) {
-            //     return false;
-            // }
                 return false;
         });
         // Right Click Disable
