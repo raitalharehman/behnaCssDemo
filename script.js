@@ -1,27 +1,11 @@
 // Keys Disable for inspect
 $(document).keydown(function (event) {
-    if (event.keyCode === 123) {
-        return false;
-    }
-    else if (event.keyCode === 116) {
-        return false;
-    }
-    else if (event.ctrlKey && event.shiftKey && event.keyCode === 73) {
-        return false;
-    }
-    else if (event.ctrlKey && event.shiftKey && event.keyCode === 105) {
-        return false;
-    }
-    else if (event.ctrlKey && event.keyCode === 85) {
-        return false;
-    }
-    else if (event.ctrlKey && event.keyCode === 117) {
-        return false;
-    }
-    else if (event.ctrlKey && event.keyCode === 82) {
-        return false;
-    }
-    else if (event.ctrlKey && event.keyCode === 114) {
+
+    if (event.keyCode === 123 || event.keyCode === 116 || event.ctrlKey && event.shiftKey && event.keyCode === 73
+        || event.ctrlKey && event.shiftKey && event.keyCode === 105 || event.ctrlKey && event.keyCode === 115
+        || event.ctrlKey && event.keyCode === 83 || event.ctrlKey && event.keyCode === 85
+        || event.ctrlKey && event.keyCode === 117 || event.ctrlKey && event.keyCode === 82
+        || event.ctrlKey && event.keyCode === 114) {
         return false;
     }
 });
