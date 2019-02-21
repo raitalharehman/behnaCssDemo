@@ -12,3 +12,7 @@ https://behna.herokuapp.com/behna.css
 For Demonstration 
 
 https://behna.herokuapp.com
+
+### License
+
+BehnaCss is [MIT licensed](./LICENSE).
